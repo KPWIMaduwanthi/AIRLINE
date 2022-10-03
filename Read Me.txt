@@ -1,0 +1,12 @@
+Welcome to the Phenix Airline Ticket Riservation System.
+
+
+Plese use this details if you are login as Admin
+
+email 		:- admin@gmail.com
+password		:- admin
+
+if your database did not created automaticly,
+please create a database on mysql 
+
+database name :- fbs
