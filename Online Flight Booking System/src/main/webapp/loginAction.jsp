@@ -15,7 +15,7 @@
 	 {
 		 Connection con=ConnectionProvider.getCon();
 		 Statement st=con.createStatement();
-		 ResultSet rs=st.executeQuery("select from users where email='"+email+"' and password='"+password+"'");
+		 ResultSet rs=st.executeQuery("select *from users where email='"+email+"' and password='"+password+"'");
 		 while(rs.next())
 		 {
 			 z=1;
